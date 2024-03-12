@@ -1,29 +1,13 @@
-# JupyterLite Demo
+# Osnovni napotki za delo
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
+## Navodila za laboratorijske vaje
 
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
+Navodila za laboratorijske vaje so sestavljene v obliki interaktivnih spletnih beležnic [Jupyter Notebook](https://docs.jupyter.org/en/latest/) (datoteke s končnico .ipynb), ki služijo tudi kot okolje za obdelavo in predstavitev rezultatov meritev. Interaktivna beležnica je seznam celic. Z gumbom "Run" (&#9658;) ali s kombinacijo tipk <kbd>Shift</kbd>+<kbd>Enter</kbd> vsebino celice izvedemo in se premaknemo na naslednjo celico.
 
-## ✨ Try it in your browser ✨
+## O okolju JupyterLite
 
-➡️ **https://jupyterlite.github.io/demo**
+[JupyterLite](https://jupyterlite.readthedocs.io/en/stable/) ([![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)) je distribucija razvojnega okolja [JupyterLab](https://docs.jupyter.org/en/latest/), ki teče izključno v spletnem brskalniku. Tako lahko na vseh napravah s spletnimi brskalniki takšno okolje odpremo, pregledujemo, obdelujemo in predstavljamo podatke ter programsko kodo. JupyterLite preverjeno deluje na brskalnikih Firefox 90+ in Chromium 89+.
 
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
+## Odprtokodna licenca
 
-## Requirements
-
-JupyterLite is being tested against modern web browsers:
-
-- Firefox 90+
-- Chromium 89+
-
-## Deploy your JupyterLite website on GitHub Pages
-
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
-
-## Further Information and Updates
-
-For more info, keep an eye on the JupyterLite documentation:
-
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
+Ti napotki so README.md datoteka [statičnega spletnega mesta](https://mihaf.github.io/bm) na [GitHub](https://github.com/) straneh. Vsa [vsebina](https://github.com/mihaf/bm) tega [spletnega mesta](https://mihaf.github.io/bm) je [odprta koda](https://en.wikipedia.org/wiki/Open_source) in je [prosto dostopna](https://github.com/mihaf/bm), dovoljeno je kopiranje in spreminjanje. Del <a property="dct:title" rel="cc:attributionURL" href="https://github.com/mihaf/bm">te vsebine</a> je avtorsko delo <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.zf.uni-lj.si/si/predstavitev/zaposleni/miha-fosnaric">Miha Fošnariča</a> in je pod odprtokodno licenco <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.sl" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a>.
