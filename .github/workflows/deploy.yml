@@ -8,23 +8,32 @@ on:
     branches:
       - '*'
 
+# (Optional) Force JavaScript actions to run on Node 24 right now.
+# Remove once you're satisfied everything works, or after June 2, 2026.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
+
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
+
       - name: Install the dependencies
         run: |
           python -m pip install -r requirements.txt
+
       - name: Build the JupyterLite site
         run: |
           cp README.md content
           jupyter lite build --contents content --output-dir dist
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
